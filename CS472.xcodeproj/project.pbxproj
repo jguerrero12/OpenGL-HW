@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A492934B915EB08ED144E3A7 /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CS472" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		048C4FA7F49799C4C1F6FB75 /* QtOpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 9BBFBF892451151AB6C485A4 /* QtOpenGL.framework */; };
+		07929980F898FD7410AD3DD1 /* HW2b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A87F96FA7EB70945E4C9F6E4 /* HW2b.cpp */; settings = {ATTRIBUTES = (); }; };
+		07AB82DB87D541B8D997B24E /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = F07D116F0EFBABA420A064B4 /* QtGui.framework */; };
+		0ACC443F0DC36114D5251272 /* Light.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 287B95F3D9D69865B3362E7D /* Light.cpp */; settings = {ATTRIBUTES = (); }; };
+		0E2BEB37DA9B4EACDD2D092A /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 53BD95E4E2D6A28D3A4BB041 /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		177A057E9F0D01C99EECE9EB /* Scene.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EB340CC233DD3DB44438DE18 /* Scene.cpp */; settings = {ATTRIBUTES = (); }; };
+		1C76CBBDEA6D08F4FF95CE67 /* HW0b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B8DEEA2EBFB0E78A9EA363CC /* HW0b.cpp */; settings = {ATTRIBUTES = (); }; };
+		2C2B905FB8F119A8C4D0C722 /* HW0a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C7FCC3CB5BF1D0A3EB829091 /* HW0a.cpp */; settings = {ATTRIBUTES = (); }; };
+		3ED038A6D42E80DDC23AFAA8 /* qrc_CS472.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 650081FE338E7C05642B7828 /* qrc_CS472.cpp */; settings = {ATTRIBUTES = (); }; };
+		3F18F33291EEA1774A6B153C /* HW1a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F78CD5DE0D96D912E7E35491 /* HW1a.cpp */; settings = {ATTRIBUTES = (); }; };
+		432BA7AFDE79009F2B3024F0 /* moc_HW0b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 631652F2ED651D470104CC01 /* moc_HW0b.cpp */; settings = {ATTRIBUTES = (); }; };
+		484421D14D3E38B025DE5F35 /* moc_HW1a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B7F48681AE1E4CA584434850 /* moc_HW1a.cpp */; settings = {ATTRIBUTES = (); }; };
+		5417EAC3CCAE930E2494D7AF /* Sphere.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 127477A4F1C302808B3D9A98 /* Sphere.cpp */; settings = {ATTRIBUTES = (); }; };
+		5521FDE686554023B1775429 /* HW0c.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 060052204F784A7A4CD6FC29 /* HW0c.cpp */; settings = {ATTRIBUTES = (); }; };
+		5EA729E8C839DD48A0D2C589 /* HW1b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8269A0277702BE2532C7DFB4 /* HW1b.cpp */; settings = {ATTRIBUTES = (); }; };
+		5FD8C30D800EC2F7921E4639 /* moc_HW1b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EC52629379687595B5AB12F6 /* moc_HW1b.cpp */; settings = {ATTRIBUTES = (); }; };
+		65160CE560CCD666B902B919 /* moc_HW2b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5E2DE9F3A7C96735D2447531 /* moc_HW2b.cpp */; settings = {ATTRIBUTES = (); }; };
+		67B30B08E46437FA2262AD64 /* moc_HW2a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8A733DCAE8DB4BB41CA8F599 /* moc_HW2a.cpp */; settings = {ATTRIBUTES = (); }; };
+		81FFC8FF9AE59BCE58168D60 /* moc_HW0a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E4C52E792C1F168F45300432 /* moc_HW0a.cpp */; settings = {ATTRIBUTES = (); }; };
+		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
+		8A470D586766EBC5FB2482F2 /* Camera.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 32B83B49C567C060F9F4B142 /* Camera.cpp */; settings = {ATTRIBUTES = (); }; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		92F19397C8BB0246E3A4668C /* Cylinder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B8C4B5501C1D44C1548F3B44 /* Cylinder.cpp */; settings = {ATTRIBUTES = (); }; };
+		A25F8AE876C53562408EFE28 /* moc_MainWindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5AEC81CF90368E794F7D9DDE /* moc_MainWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		A5F1FC7374D389A2EC21FC1C /* moc_dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 18A960B27AAF55CB4DFE998D /* moc_dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		AC42BD08FB92273C634B2D94 /* HW.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = DE1E59EC88A2C44F3F35BB72 /* HW.cpp */; settings = {ATTRIBUTES = (); }; };
+		B74707C5D92C8D9C65E94FC5 /* moc_HW0c.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 813AB0EE17454C794BF29583 /* moc_HW0c.cpp */; settings = {ATTRIBUTES = (); }; };
+		C616C43AB0BFE21AF3F41D94 /* Cube.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7BC7FE6D9773AD29EB86E812 /* Cube.cpp */; settings = {ATTRIBUTES = (); }; };
+		CE9F580B38B0426BBA6511CD /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6836F9E58E2EEF75C362F61A /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		CF17168CB5237AEF339FBD03 /* MainWindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9EC3A7105A9A0D7760A10A10 /* MainWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		DF8CCA57554C66D1116AB322 /* HW2a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 551164172C09E7A490970CE8 /* HW2a.cpp */; settings = {ATTRIBUTES = (); }; };
+		E15F6C7E2C1E1CF7D7215FA5 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 5993A202A08B10C84A25D150 /* QtCore.framework */; };
+		E2DAABEAC6B4E8D801ABE1E6 /* Cone.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8DB46F8AACB4DB1CEC22EC68 /* Cone.cpp */; settings = {ATTRIBUTES = (); }; };
+		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		F29EE1727E2A79921DB54802 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FDC08AA20C71D084309D0710 /* QtWidgets.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33E6C68A1E805E2C003F4A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A492934B915EB08ED144E3A7;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060052204F784A7A4CD6FC29 /* HW0c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW0c.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw0/HW0c.cpp"; sourceTree = "<absolute>"; };
+		0CFBA330AC34518151774A0A /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/camera/Camera.h"; sourceTree = "<absolute>"; };
+		127477A4F1C302808B3D9A98 /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Sphere.cpp"; sourceTree = "<absolute>"; };
+		1545C1FF832D0990CEC04E58 /* HW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/HW.h"; sourceTree = "<absolute>"; };
+		18A960B27AAF55CB4DFE998D /* moc_dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_dummy.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/moc_dummy.cpp"; sourceTree = "<absolute>"; };
+		287B95F3D9D69865B3362E7D /* Light.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Light.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/lighting/Light.cpp"; sourceTree = "<absolute>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		2DABE33BF84C619FDB52D92A /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sphere.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Sphere.h"; sourceTree = "<absolute>"; };
+		32B83B49C567C060F9F4B142 /* Camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Camera.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/camera/Camera.cpp"; sourceTree = "<absolute>"; };
+		3A8FFA3E4B76A458933D6F8B /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Scene.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Scene.h"; sourceTree = "<absolute>"; };
+		4DA0C0C7C2C2028359ECEF51 /* HW1a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW1a.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw1/HW1a.h"; sourceTree = "<absolute>"; };
+		4DBE96F5FC405892349E7A0E /* HW2a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW2a.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw2/HW2a.h"; sourceTree = "<absolute>"; };
+		53BD95E4E2D6A28D3A4BB041 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/dummy.cpp"; sourceTree = "<absolute>"; };
+		551164172C09E7A490970CE8 /* HW2a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW2a.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw2/HW2a.cpp"; sourceTree = "<absolute>"; };
+		56F2EEB69E57F2D224D29FD9 /* HW0c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW0c.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw0/HW0c.h"; sourceTree = "<absolute>"; };
+		58A9B6C829961E9222C1AF80 /* dummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dummy.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/dummy.h"; sourceTree = "<absolute>"; };
+		5993A202A08B10C84A25D150 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		5AEC81CF90368E794F7D9DDE /* moc_MainWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_MainWindow.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/moc_MainWindow.cpp"; sourceTree = "<absolute>"; };
+		5E2DE9F3A7C96735D2447531 /* moc_HW2b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW2b.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/moc_HW2b.cpp"; sourceTree = "<absolute>"; };
+		631652F2ED651D470104CC01 /* moc_HW0b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW0b.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/moc_HW0b.cpp"; sourceTree = "<absolute>"; };
+		646927960DED457C1BE5AE51 /* Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cube.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Cube.h"; sourceTree = "<absolute>"; };
+		650081FE338E7C05642B7828 /* qrc_CS472.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_CS472.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/qrc_CS472.cpp"; sourceTree = "<absolute>"; };
+		6836F9E58E2EEF75C362F61A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/main.cpp"; sourceTree = "<absolute>"; };
+		6A5FB516958A4401A3F03776 /* HW2b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW2b.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw2/HW2b.h"; sourceTree = "<absolute>"; };
+		6A66AE46CE9967E40D44D0D7 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/.qmake.stash"; sourceTree = "<absolute>"; };
+		7BC7FE6D9773AD29EB86E812 /* Cube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cube.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Cube.cpp"; sourceTree = "<absolute>"; };
+		813AB0EE17454C794BF29583 /* moc_HW0c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW0c.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/moc_HW0c.cpp"; sourceTree = "<absolute>"; };
+		8269A0277702BE2532C7DFB4 /* HW1b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW1b.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw1/HW1b.cpp"; sourceTree = "<absolute>"; };
+		88D3364547EE431263DC9D11 /* Geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Geometry.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Geometry.h"; sourceTree = "<absolute>"; };
+		8A733DCAE8DB4BB41CA8F599 /* moc_HW2a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW2a.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/moc_HW2a.cpp"; sourceTree = "<absolute>"; };
+		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		8DB46F8AACB4DB1CEC22EC68 /* Cone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cone.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Cone.cpp"; sourceTree = "<absolute>"; };
+		8E66215A53DBD93EC266D7C2 /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Light.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/lighting/Light.h"; sourceTree = "<absolute>"; };
+		9362FFF354A4EC44875AAF62 /* CS472.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = CS472.qrc; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/CS472.qrc"; sourceTree = "<absolute>"; };
+		9BBFBF892451151AB6C485A4 /* QtOpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtOpenGL.framework; path = /Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework; sourceTree = "<absolute>"; };
+		9EC3A7105A9A0D7760A10A10 /* MainWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainWindow.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/MainWindow.cpp"; sourceTree = "<absolute>"; };
+		A0D9E6F201B4FE01215F7B41 /* CS472.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = CS472.pro; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/CS472.pro"; sourceTree = "<absolute>"; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		A312C43553006151D4AE9C97 /* HW0b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW0b.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw0/HW0b.h"; sourceTree = "<absolute>"; };
+		A87F96FA7EB70945E4C9F6E4 /* HW2b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW2b.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw2/HW2b.cpp"; sourceTree = "<absolute>"; };
+		B1AFDF1C46F55450DC3FC9ED /* CS472.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS472.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42CD898D2277FD77B84456F /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainWindow.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/MainWindow.h"; sourceTree = "<absolute>"; };
+		B7F48681AE1E4CA584434850 /* moc_HW1a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW1a.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/moc_HW1a.cpp"; sourceTree = "<absolute>"; };
+		B8C4B5501C1D44C1548F3B44 /* Cylinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cylinder.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Cylinder.cpp"; sourceTree = "<absolute>"; };
+		B8DEEA2EBFB0E78A9EA363CC /* HW0b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW0b.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw0/HW0b.cpp"; sourceTree = "<absolute>"; };
+		BD7CC64CF7BB2DD5F77BE4E7 /* HW0a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW0a.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw0/HW0a.h"; sourceTree = "<absolute>"; };
+		C7FCC3CB5BF1D0A3EB829091 /* HW0a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW0a.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw0/HW0a.cpp"; sourceTree = "<absolute>"; };
+		CA1A215C25DED5DAA45FEA62 /* Cylinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cylinder.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Cylinder.h"; sourceTree = "<absolute>"; };
+		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		DE1E59EC88A2C44F3F35BB72 /* HW.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/HW.cpp"; sourceTree = "<absolute>"; };
+		E4C52E792C1F168F45300432 /* moc_HW0a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW0a.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/moc_HW0a.cpp"; sourceTree = "<absolute>"; };
+		E71EDE0EC8125CA1CA039AEC /* Cone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cone.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Cone.h"; sourceTree = "<absolute>"; };
+		EB340CC233DD3DB44438DE18 /* Scene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Scene.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/geometry/Scene.cpp"; sourceTree = "<absolute>"; };
+		EBA28A4A5348EDFA088D9E18 /* HW1b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW1b.h; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw1/HW1b.h"; sourceTree = "<absolute>"; };
+		EC52629379687595B5AB12F6 /* moc_HW1b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW1b.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/moc_HW1b.cpp"; sourceTree = "<absolute>"; };
+		F07D116F0EFBABA420A064B4 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		F78CD5DE0D96D912E7E35491 /* HW1a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW1a.cpp; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/hw1/HW1a.cpp"; sourceTree = "<absolute>"; };
+		FDC08AA20C71D084309D0710 /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		FFB9B18B385A34680B7AB3FF /* CS472.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CS472.icns; path = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/CS472.icns"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048C4FA7F49799C4C1F6FB75 /* QtOpenGL.framework in Link Binary With Libraries */,
+				F29EE1727E2A79921DB54802 /* QtWidgets.framework in Link Binary With Libraries */,
+				07AB82DB87D541B8D997B24E /* QtGui.framework in Link Binary With Libraries */,
+				E15F6C7E2C1E1CF7D7215FA5 /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
+				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2156C9B67EB6B3918607349C /* lighting */ = {
+			isa = PBXGroup;
+			children = (
+				287B95F3D9D69865B3362E7D /* Light.cpp */,
+				8E66215A53DBD93EC266D7C2 /* Light.h */,
+			);
+			name = lighting;
+			sourceTree = "<group>";
+		};
+		24318BA31F631EB3F0026335 /* geometry */ = {
+			isa = PBXGroup;
+			children = (
+				7BC7FE6D9773AD29EB86E812 /* Cube.cpp */,
+				127477A4F1C302808B3D9A98 /* Sphere.cpp */,
+				B8C4B5501C1D44C1548F3B44 /* Cylinder.cpp */,
+				8DB46F8AACB4DB1CEC22EC68 /* Cone.cpp */,
+				EB340CC233DD3DB44438DE18 /* Scene.cpp */,
+				88D3364547EE431263DC9D11 /* Geometry.h */,
+				646927960DED457C1BE5AE51 /* Cube.h */,
+				2DABE33BF84C619FDB52D92A /* Sphere.h */,
+				CA1A215C25DED5DAA45FEA62 /* Cylinder.h */,
+				E71EDE0EC8125CA1CA039AEC /* Cone.h */,
+				3A8FFA3E4B76A458933D6F8B /* Scene.h */,
+			);
+			name = geometry;
+			sourceTree = "<group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				650081FE338E7C05642B7828 /* qrc_CS472.cpp */,
+				5AEC81CF90368E794F7D9DDE /* moc_MainWindow.cpp */,
+				18A960B27AAF55CB4DFE998D /* moc_dummy.cpp */,
+				E4C52E792C1F168F45300432 /* moc_HW0a.cpp */,
+				631652F2ED651D470104CC01 /* moc_HW0b.cpp */,
+				813AB0EE17454C794BF29583 /* moc_HW0c.cpp */,
+				B7F48681AE1E4CA584434850 /* moc_HW1a.cpp */,
+				EC52629379687595B5AB12F6 /* moc_HW1b.cpp */,
+				8A733DCAE8DB4BB41CA8F599 /* moc_HW2a.cpp */,
+				5E2DE9F3A7C96735D2447531 /* moc_HW2b.cpp */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6836F9E58E2EEF75C362F61A /* main.cpp */,
+				9EC3A7105A9A0D7760A10A10 /* MainWindow.cpp */,
+				DE1E59EC88A2C44F3F35BB72 /* HW.cpp */,
+				53BD95E4E2D6A28D3A4BB041 /* dummy.cpp */,
+				5B4C135899C5C2F6FFFD7ADB /* hw0 */,
+				3C77C658827F4A07ABF9D58B /* hw1 */,
+				8D1A7173215F622A1D3A66B1 /* hw2 */,
+				24318BA31F631EB3F0026335 /* geometry */,
+				2156C9B67EB6B3918607349C /* lighting */,
+				FF8C409087E1FACCA055498B /* camera */,
+				FFB9B18B385A34680B7AB3FF /* CS472.icns */,
+				B42CD898D2277FD77B84456F /* MainWindow.h */,
+				1545C1FF832D0990CEC04E58 /* HW.h */,
+				58A9B6C829961E9222C1AF80 /* dummy.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3C77C658827F4A07ABF9D58B /* hw1 */ = {
+			isa = PBXGroup;
+			children = (
+				F78CD5DE0D96D912E7E35491 /* HW1a.cpp */,
+				8269A0277702BE2532C7DFB4 /* HW1b.cpp */,
+				4DA0C0C7C2C2028359ECEF51 /* HW1a.h */,
+				EBA28A4A5348EDFA088D9E18 /* HW1b.h */,
+			);
+			name = hw1;
+			sourceTree = "<group>";
+		};
+		5B4C135899C5C2F6FFFD7ADB /* hw0 */ = {
+			isa = PBXGroup;
+			children = (
+				C7FCC3CB5BF1D0A3EB829091 /* HW0a.cpp */,
+				B8DEEA2EBFB0E78A9EA363CC /* HW0b.cpp */,
+				060052204F784A7A4CD6FC29 /* HW0c.cpp */,
+				BD7CC64CF7BB2DD5F77BE4E7 /* HW0a.h */,
+				A312C43553006151D4AE9C97 /* HW0b.h */,
+				56F2EEB69E57F2D224D29FD9 /* HW0c.h */,
+			);
+			name = hw0;
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0D9E6F201B4FE01215F7B41 /* CS472.pro */,
+				6A66AE46CE9967E40D44D0D7 /* .qmake.stash */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9362FFF354A4EC44875AAF62 /* CS472.qrc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8D1A7173215F622A1D3A66B1 /* hw2 */ = {
+			isa = PBXGroup;
+			children = (
+				551164172C09E7A490970CE8 /* HW2a.cpp */,
+				A87F96FA7EB70945E4C9F6E4 /* HW2b.cpp */,
+				4DBE96F5FC405892349E7A0E /* HW2a.h */,
+				6A5FB516958A4401A3F03776 /* HW2b.h */,
+			);
+			name = hw2;
+			sourceTree = "<group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFBF892451151AB6C485A4 /* QtOpenGL.framework */,
+				FDC08AA20C71D084309D0710 /* QtWidgets.framework */,
+				F07D116F0EFBABA420A064B4 /* QtGui.framework */,
+				5993A202A08B10C84A25D150 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
+				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* CS472 */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				87DF60DE337FB58864343E39 /* Resources */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = CS472;
+			sourceTree = "<group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1AFDF1C46F55450DC3FC9ED /* CS472.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8C409087E1FACCA055498B /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				32B83B49C567C060F9F4B142 /* Camera.cpp */,
+				0CFBA330AC34518151774A0A /* Camera.h */,
+			);
+			name = camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDD78051262E8DF5D0C1AA27 /* CS472 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CS472" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				829B200BEB08E23E0B614AA1 /* PBXTargetDependency */,
+			);
+			name = CS472;
+			productName = CS472;
+			productReference = B1AFDF1C46F55450DC3FC9ED /* CS472.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					A492934B915EB08ED144E3A7 = {
+						DevelopmentTeam = 936NAP953U;
+					};
+					BDD78051262E8DF5D0C1AA27 = {
+						DevelopmentTeam = 936NAP953U;
+					};
+				};
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "CS472" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* CS472 */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD78051262E8DF5D0C1AA27 /* CS472 */,
+				A492934B915EB08ED144E3A7 /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C '/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/' -f CS472.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C '/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/' -f CS472.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9F580B38B0426BBA6511CD /* main.cpp in Compile Sources */,
+				CF17168CB5237AEF339FBD03 /* MainWindow.cpp in Compile Sources */,
+				AC42BD08FB92273C634B2D94 /* HW.cpp in Compile Sources */,
+				0E2BEB37DA9B4EACDD2D092A /* dummy.cpp in Compile Sources */,
+				2C2B905FB8F119A8C4D0C722 /* HW0a.cpp in Compile Sources */,
+				1C76CBBDEA6D08F4FF95CE67 /* HW0b.cpp in Compile Sources */,
+				5521FDE686554023B1775429 /* HW0c.cpp in Compile Sources */,
+				3F18F33291EEA1774A6B153C /* HW1a.cpp in Compile Sources */,
+				5EA729E8C839DD48A0D2C589 /* HW1b.cpp in Compile Sources */,
+				DF8CCA57554C66D1116AB322 /* HW2a.cpp in Compile Sources */,
+				07929980F898FD7410AD3DD1 /* HW2b.cpp in Compile Sources */,
+				C616C43AB0BFE21AF3F41D94 /* Cube.cpp in Compile Sources */,
+				5417EAC3CCAE930E2494D7AF /* Sphere.cpp in Compile Sources */,
+				92F19397C8BB0246E3A4668C /* Cylinder.cpp in Compile Sources */,
+				E2DAABEAC6B4E8D801ABE1E6 /* Cone.cpp in Compile Sources */,
+				177A057E9F0D01C99EECE9EB /* Scene.cpp in Compile Sources */,
+				0ACC443F0DC36114D5251272 /* Light.cpp in Compile Sources */,
+				8A470D586766EBC5FB2482F2 /* Camera.cpp in Compile Sources */,
+				3ED038A6D42E80DDC23AFAA8 /* qrc_CS472.cpp in Compile Sources */,
+				A25F8AE876C53562408EFE28 /* moc_MainWindow.cpp in Compile Sources */,
+				A5F1FC7374D389A2EC21FC1C /* moc_dummy.cpp in Compile Sources */,
+				81FFC8FF9AE59BCE58168D60 /* moc_HW0a.cpp in Compile Sources */,
+				432BA7AFDE79009F2B3024F0 /* moc_HW0b.cpp in Compile Sources */,
+				B74707C5D92C8D9C65E94FC5 /* moc_HW0c.cpp in Compile Sources */,
+				484421D14D3E38B025DE5F35 /* moc_HW1a.cpp in Compile Sources */,
+				5FD8C30D800EC2F7921E4639 /* moc_HW1b.cpp in Compile Sources */,
+				67B30B08E46437FA2262AD64 /* moc_HW2a.cpp in Compile Sources */,
+				65160CE560CCD666B902B919 /* moc_HW2b.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		829B200BEB08E23E0B614AA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A492934B915EB08ED144E3A7 /* Qt Preprocess */;
+			targetProxy = 33E6C68A1E805E2C003F4A50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 936NAP953U;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib,
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib,
+				);
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					.,
+					geometry,
+					camera,
+					lighting,
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers,
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers,
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"/Users/Alienware/Qt5.7.1/5.7/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-mmacosx-version-min=10.9",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-mmacosx-version-min=10.9",
+					"-Wl,-rpath,/Users/Alienware/Qt5.7.1/5.7/clang_64/lib",
+					"-F/Users/Alienware/Qt5.7.1/5.7/clang_64/lib",
+				);
+				PRODUCT_NAME = CS472;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/";
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 936NAP953U;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib,
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib,
+				);
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					.,
+					geometry,
+					camera,
+					lighting,
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers,
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers,
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"/Users/Alienware/Qt5.7.1/5.7/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/Alienware/Qt5.7.1/5.7/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-mmacosx-version-min=10.9",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-mmacosx-version-min=10.9",
+					"-Wl,-rpath,/Users/Alienware/Qt5.7.1/5.7/clang_64/lib",
+					"-F/Users/Alienware/Qt5.7.1/5.7/clang_64/lib",
+				);
+				PRODUCT_NAME = CS472;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+				SYMROOT = "/Users/Alienware/Downloads/Spring 2017 CS Docs/CSC 472 - Computer Graphics/sample code and app/CS472.skel/";
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 936NAP953U;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spirit.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = CS472;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 936NAP953U;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spirit.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = CS472;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CS472" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "CS472" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}
